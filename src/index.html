@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Frontend App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        .container {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+        h1 { text-align: center; }
+        .info { margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔒 Secure HTTPS App</h1>
+        <div class="info">
+            <p><strong>Protocol:</strong> <span id="protocol">Loading...</span></p>
+            <p><strong>SSL Enabled:</strong> <span id="ssl">Loading...</span></p>
+            <p><strong>Timestamp:</strong> <span id="time">Loading...</span></p>
+        </div>
+        <div id="content">
+            <p>This is a secure frontend application served via Nginx with SSL encryption.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

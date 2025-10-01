@@ -1,0 +1,9 @@
+{
+  "name": "frontend-https-app",
+  "version": "1.0.0",
+  "description": "Static frontend app with Nginx and HTTPS",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "echo 'Use docker-compose for development'"
+  }
+}
